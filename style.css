@@ -12,14 +12,22 @@ h1{
   font-size: 25px;
   text-align: right;
   color:white;
-  margin: 0;
   padding: 20px 18% 30px 15%;
+}
+h2{
+  font-size: 20px;
+  color: rgb(61, 51, 90);
+  text-align: center;
+}
+.omne h2{
+  clear:left;
 }
 footer{
   text-align: center;
   font-size: 18px;
   color: white;
-  padding: 15px;
+  padding: 10px;
+  margin-top: 30px;
 }
 section{
   padding: 5px 15%;
@@ -30,4 +38,10 @@ img{
   float:left;
   border: 5px solid white;
   border-radius: 50%;
+}
+.obrazek{
+  padding-top: 30px;
+}
+a{
+  color:rgb(52, 24, 136);
 }
