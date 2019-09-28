@@ -3,6 +3,7 @@ body{
   line-height: 1.5;
   background-color: rgb(164, 164, 226);
   font-family: 'Varela Round', sans-serif;
+  margin:0;
 }
 header, footer{
   background-color: rgb(109, 90, 161);
@@ -11,9 +12,15 @@ h1{
   font-size: 25px;
   text-align: right;
   color:white;
+  margin: 0;
+  padding: 20px 18% 30px 15%;
 }
 footer{
   text-align: center;
   font-size: 18px;
   color: white;
+  padding: 15px;
+}
+section{
+  padding: 5px 15%;
 }
