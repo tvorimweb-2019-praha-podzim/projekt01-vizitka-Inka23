@@ -1,8 +1,16 @@
 body{
   font-size: 16px;
   line-height: 1.5;
- 
+  background-color: rgb(164, 164, 226);
 }
-a{
-  color: rgb(93, 19, 190);
+header, footer{
+  background-color: rgb(109, 90, 161);
+}  
+h1{
+  font-size: 25px;
+  text-align: right;
+}
+footer{
+  text-align: center;
+  font-size: 18px;
 }
