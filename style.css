@@ -2,6 +2,7 @@ body{
   font-size: 16px;
   line-height: 1.5;
   background-color: rgb(164, 164, 226);
+  font-family: 'Varela Round', sans-serif;
 }
 header, footer{
   background-color: rgb(109, 90, 161);
@@ -9,8 +10,10 @@ header, footer{
 h1{
   font-size: 25px;
   text-align: right;
+  color:white;
 }
 footer{
   text-align: center;
   font-size: 18px;
+  color: white;
 }
