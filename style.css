@@ -24,3 +24,10 @@ footer{
 section{
   padding: 5px 15%;
 }
+img{
+  width: 180px;
+  height: 180px;
+  float:left;
+  border: 5px solid white;
+  border-radius: 50%;
+}
