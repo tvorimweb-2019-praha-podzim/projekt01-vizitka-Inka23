@@ -1,21 +1,3 @@
-<!--
-Vytvoř osobní vizitku se:
-
-- jménem,
-- krátkým odstavcem o sobě,
-- odkazem na svůj profil,
-- vlastní fotkou (aby tě lektoři poznali),
-- odkazem na svůj e-mail.
-
-Vizitku ostyluj pomocí CSS:
-
-- Nastav barvu pozadí, popředí
-- Uprav velikost písma, zarovnání textu
-- Přidej si vlastní písmo např. z Google Fonts
-- Další vlastnosti dle vlastního uvážení
-
-Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
--->
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -27,38 +9,39 @@ Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <!--hlavička stránky-->
   <header>
-      <section class="obrazek"><img src="Obrázky/moje_fotka.jpg" alt="foto Inessy"></section>
-    <h1>Inessa<br>Skleničková</h1>
+    <section class="obrazek">
+      <img src="Obrázky/moje_fotka.jpg" alt="foto Inessy">
+    </section>
+    <h1>Inessa Skleničková</h1>
   </header>
-
+  <!--menu-->
+  <ul class = "menu">
+      <li><a href="index.html">O mně</a></li>
+      <li><a href="zajmy.html">Zájmy a aktivity</a></li>
+    </ul>
   <!--sekce O mně-->
-  <section class = "omne">
-    <h2>O mně</h2>
-    <p>Jmenuji se Inessa Skleničková. Pracuji jako učitelka na Střední technické škole v Benešově.  
-    Vyučuji převážně technické kreslení a počítačové konstruování v CAD systému 
-    <a href="https://www.solidworks.cz">SolidWorks</a>.<br>
-    Posledních pár let vyučuji částečně i informatiku. Ráda se vzdělávám v oborech, které vyučuji, jezdím na různá školení, konference a poznávám nové věci.</p> 
-  </section>
+  <section class="omne">
+    <h2 class = "prvni">O mně</h2>
+    <p>
+      Jmenuji se Inessa Skleničková. Pracuji jako učitelka na Střední technické škole v Benešově.  
+      Vyučuji převážně technické kreslení a počítačové konstruování v CAD systému <a href="https://www.solidworks.cz/">SolidWorks</a>.
+    </p>
 
-  <!--sekce Kurz-->
-  <section>
-    <h2>Kurz „Web od a do Z“</h2>
-    <p>Tento kurz jsem si vybrala, protože chci vytvářet kvalitní webové stránky a učit studenty této dovednosti na výšší úrovni. Dále bych chtěla vytvořit vlastní web o výuce technického kreslení a technické dokumentace. Do budoucna mám v plánu zmodernozovat webové stránky školy.<br> 
-    Věřím, že pro mě bude kurz „Web od A do Z“ velice přínosný.</p> 
+    <p>Posledních pár let vyučuji částečně i informatiku. Ráda se vzdělávám v oborech, které vyučuji, jezdím na různá školení, konference a poznávám nové věci.
+    </p> 
+  
+    <p>
+      Tento kurz jsem si vybrala, protože chci vytvářet kvalitní webové stránky a učit studenty této dovednosti na výšší úrovni. Dále bych chtěla vytvořit vlastní web o výuce technického kreslení a technické dokumentace. Do budoucna mám v plánu zmodernozovat webové stránky školy.<br> 
+      Věřím, že pro mě bude kurz „Web od A do Z“ velice přínosný.
+    </p> 
   </section>
-
-  <!--sekce Zájmy-->
-  <section>
-    <h2>Zájmy a aktivity</h2>
-    <p>Ve volném čase ráda chodím do přírody. V zimě lyžuji a v létě ráda navštěvuji hrady a zámky.  Občas  zajdu do divadla nebo na koncert. V poslední době se více zajímám o programování, robotiku, virtuální realitu a často věnuji svůj volný čas právě <em>sebevzdělávání</em>.
-    Pokud byste měli podobné zájmy a chtěli byste si o tom popovídat, napište mi na 
-    <a href="mailto:sklenickova.inessa@email.cz">email</a>.</p>
-  </section>
-   <!--patička stránky--> 
-   <footer>
-     <b>Praha 2019</b>
-   </footer>
+  
+  <!--patička stránky--> 
+  <footer>
+     Praha 2019
+  </footer>
 </body>
 </html>

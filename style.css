@@ -1,47 +1,77 @@
-body{
+body {
   font-size: 16px;
   line-height: 1.5;
-  background-color: rgb(164, 164, 226);
   font-family: 'Varela Round', sans-serif;
+  background-color: rgb(163, 136, 230);
   margin:0;
 }
-header, footer{
-  background-color: rgb(109, 90, 161);
-}  
+header {
+  background-color:rgb(78, 63, 116);
+}
+.menu {
+  margin: 0;
+  padding: 0 15% 0 0;
+  text-align: right;
+  background-color: rgb(53, 42, 78);
+  
+}
+.menu li {
+  display: inline-block;
+  padding-left: 20px;
+}
+.menu a {
+  text-decoration: none;
+  color: rgb(163, 136, 230); 
+  padding: 10px;
+  display:block;
+  font-size: 15px;
+}
+a:hover {
+  background-color:rgb(78, 63, 116);
+}
+
 h1{
   font-size: 25px;
   text-align: right;
-  color:white;
-  padding: 20px 18% 30px 15%;
+  color: white;
+  font-weight: normal;
+  padding: 50px 15% 30px 15%;
+  margin:0;
 }
 h2{
-  font-size: 20px;
-  color: rgb(61, 51, 90);
-  text-align: center;
+  font-size: 18px;
+  color: rgb(34, 28, 49);
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 65px;
+}
+.druhy {
+  margin-left: 35px;
+}
+  img {
+  width: 180px;
+  height:180px;
+  float:left;
+  border: 5px solid white;
+  border-radius: 50%
+  
+}
+
+section{
+  padding: 5px 15%;
+  text-align:justify;
 }
 .omne h2{
   clear:left;
 }
+.obrazek{
+padding-top: 30px;
+}
 footer{
+  color: rgb(163, 136, 230);
   text-align: center;
-  font-size: 18px;
-  color: white;
+  font-size: 15px;
   padding: 10px;
   margin-top: 30px;
-}
-section{
-  padding: 5px 15%;
-}
-img{
-  width: 180px;
-  height: 180px;
-  float:left;
-  border: 5px solid white;
-  border-radius: 50%;
-}
-.obrazek{
-  padding-top: 30px;
-}
-a{
-  color:rgb(52, 24, 136);
+  background-color:rgb(78, 63, 116);
 }
